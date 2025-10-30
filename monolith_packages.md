@@ -49,6 +49,7 @@ Kalau change frequency tinggi tapi scope-nya kecil, itu acceptable. Kalau sering
 
 Kalau trigger ini belum muncul setelah 1-2 tahun, tetap monolith adalah keputusan yang valid. Microservices bukan tujuan akhir, tapi respons terhadap constraint.
 # Monolith Structure
+```
 erp/
 ├── package.yml  
 └── packages/
@@ -74,6 +75,7 @@ erp/
     └── reporting/
         └── package.yml
         
+```
 # Deployment
 Target deployment ada dua Aplikasi dan Worker. Aplikasi akan bisa di akses secara public(customer). Worker adalah aplikasi yang jalan di background misal untuk async atau meneria webhook.
 
